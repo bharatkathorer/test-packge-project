@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de8bee2998f0cefdee89bc6ed1458198",
+    "content-hash": "f1600d983f98d59067f4da1140a9b1d3",
     "packages": [
         {
             "name": "brick/math",
@@ -1129,6 +1129,58 @@
                 }
             ],
             "time": "2024-06-13T01:25:09+00:00"
+        },
+        {
+            "name": "kathore/lara-formik",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bharatkathorer/lara-formik.git",
+                "reference": "daaf830ebd91f2548920e8d041f17833e120466c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bharatkathorer/lara-formik/zipball/daaf830ebd91f2548920e8d041f17833e120466c",
+                "reference": "daaf830ebd91f2548920e8d041f17833e120466c",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^8.74|^9.0|^10.0|^11.0",
+                "php": "^7.3|~8.0.0|~8.1.0|~8.2.0|~8.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kathore\\LaraFormik\\Providers\\LaraFormikServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Kathore\\LaraFormik\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "bharat kathore",
+                    "email": "bharatkathore399@gmail.com"
+                }
+            ],
+            "description": "description",
+            "support": {
+                "issues": "https://github.com/bharatkathorer/lara-formik/issues",
+                "source": "https://github.com/bharatkathorer/lara-formik/tree/main"
+            },
+            "time": "2024-11-10T11:23:33+00:00"
         },
         {
             "name": "laravel/framework",

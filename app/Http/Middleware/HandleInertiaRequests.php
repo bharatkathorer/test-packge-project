@@ -31,6 +31,9 @@ class HandleInertiaRequests extends Middleware
     public function share(Request $request): array
     {
         return [
+                /* notification - LaraFormik */
+             ...(\Kathore\LaraFormik\Notification\ToastNotification::init()),
+
             ...parent::share($request),
             'auth' => [
                 'user' => $request->user(),

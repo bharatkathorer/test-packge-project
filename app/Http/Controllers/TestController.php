@@ -13,7 +13,6 @@ class TestController extends Controller
 {
     public function index()
     {
-
 //        TableActionMenu::make([
 //            DeleteItems::make(User::class)
 //                ->name('delete')

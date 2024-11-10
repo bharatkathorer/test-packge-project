@@ -18,3 +18,8 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+ /* Routes - LaraFormik */
+
+                Route::get('/lara-formik', [\App\Http\Controllers\LaraFormikTestController::class, 'index'])->name('lara-formik');
+                Route::post('actions', \Kathore\LaraFormik\Controllers\TableController::class)
+                ->name('actions');
